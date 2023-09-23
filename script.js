@@ -49,7 +49,9 @@ function getRandomQuote() {
       $('.card')
         .addClass(`bg-${newColor}-subtle`)
         .removeClass(`bg-${prevColor}-subtle`);
-      $('#new-quote').addClass(`bg-${newColor}`).removeClass(`bg-${prevColor}`);
+      $('#new-quote')
+        .addClass(`btn-${newColor}`)
+        .removeClass(`btn-${prevColor}`);
 
       prevColor = newColor;
     }, 150);
