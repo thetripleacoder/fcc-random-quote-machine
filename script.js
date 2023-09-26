@@ -6,7 +6,6 @@ const colors = [
   'danger',
   'warning',
   'info',
-  'light',
   'dark',
 ];
 let prevColor;
